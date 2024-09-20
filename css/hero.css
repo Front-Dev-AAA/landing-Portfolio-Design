@@ -1,0 +1,95 @@
+ .hero {
+   padding-top: 230px;
+   display: block;
+ }
+
+ .hero__title {
+   font-family: var(--font-family);
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 54%;
+   text-align: center;
+   color: var(--solid-heading);
+   margin-right: 50px;
+ }
+
+ .hero__decr {
+   font-family: var(--font-family);
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 81%;
+   text-align: center;
+   color: var(--dark-content);
+   margin-right: 25px;
+   padding-top: 10px;
+ }
+
+ /* навыки */
+ .list__skills {
+   display: grid;
+   width: 100%;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   padding-top: 146px;
+   row-gap: 65px;
+   column-gap: 100px;
+   align-items: start;
+   /* padding-right: 10px; */
+ }
+
+ .hero__icon {
+   padding-left: 10px;
+ }
+
+
+
+ @media (max-width: 1300px) {
+   .hero {
+     padding-top: 30px;
+   }
+
+   .list__skills {
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     row-gap: 30px;
+     column-gap: 30px;
+     padding-top: 30px;
+     width: 100%;
+     justify-content: space-between;
+   }
+
+   .hero__item-icon {
+     justify-self: center;
+   }
+
+
+ }
+
+ @media (max-width: 880px) {
+
+   .list__skills {
+     grid-template-columns: 1fr 1fr 1fr;
+     row-gap: 10px;
+     column-gap: 10px;
+     padding-top: 10px;
+
+   }
+
+   .hero__item-icon {
+     width: 60%;
+   }
+
+
+   .hero__title {
+     font-size: 30px;
+     line-height: 110%;
+     margin: 0;
+   }
+
+   .hero__decr {
+     font-size: 20px;
+     line-height: 110%;
+     text-align: center;
+     margin: 0;
+   }
+
+ }
+

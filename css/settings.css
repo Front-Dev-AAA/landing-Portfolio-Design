@@ -1,0 +1,129 @@
+/* common specification */
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    font-family: 'Open-sans', sans-serif;
+    margin: 0;
+    /* background-color: var(--solid-heading-dark-mode);  */
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.btn-reset {
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+html {
+    box-sizing: border-box;
+}
+
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.body-wraper {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 177px;
+}
+
+
+:root {
+    --solid-heading: #42446e;
+    --dark-content: #666;
+    --solid-heading-dark-mode: #ccc;
+    --light-content: #a7a7a7;
+    --dark-mode: #191919;
+    --button-text: #018c0f;
+    --button-success: #d7ffe0;
+    --active-color: #BC572B;
+    --active2-color: #CE4307;
+    --accent-color:  #FF6E30;
+    --color-black: #000;
+    --color-white: #fff;
+    --color-green: #00C0FD;
+    --color-header-dark: rgba(228, 171, 49, 0.7);
+    --color-header-shining: rgba(21, 18, 18, 0.7);
+}
+
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "DM Sans", sans-serif;
+}
+
+
+
+
+
+.hero__container,
+.about__container,
+.works__container,
+.contacts__container,
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: padding-top .3s, padding-bottom .3s;
+}

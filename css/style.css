@@ -1,0 +1,9 @@
+/* Все директивы импорта должны быть в самом верху CSS-файла, до всего остального кода. Иначе не сработает. */
+@import './settings.css';
+@import './header.css';
+@import './about.css';
+@import './hero.css';
+@import './works.css';
+@import './сontacts.css';
+
+@import './footer.css'; 
